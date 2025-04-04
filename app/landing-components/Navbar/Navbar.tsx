@@ -9,7 +9,7 @@ import { SignedIn, SignedOut } from "@clerk/nextjs";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [externalLink] = useState("https://thrive-swart.vercel.app/");
+  const [externalLink] = useState("https://thrive-hack.vercel.app/");
 
   const handleMenuOpen = () => {
     setMenuOpen(!menuOpen);
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const handleExternalLink = () => {
     if (externalLink) {
-      window.open(externalLink, '_blank');
+      window.open(externalLink, '_self');
     }
   };
 

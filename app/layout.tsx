@@ -4,7 +4,7 @@ import { Viewport } from "next";
 import { Toaster } from "sonner";
 
 export const metadata = {
-  title: "Thrive",
+  title: "Thrive- Swipe. Match. Hire.",
   description: "Your Next gen AI interview prep and taking platform",
   metadataBase: new URL("https://thriveai.vercel.app"),
   manifest: "/manifest.json",

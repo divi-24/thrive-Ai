@@ -22,7 +22,7 @@ const Page = () => {
         <br />
         Make your AI forms fast using{" "}
         <Link href="/" className="text-primary font-bold">
-          Brave
+          Thrive AI
         </Link>
       </p>
 

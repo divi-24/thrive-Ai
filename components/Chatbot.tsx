@@ -99,7 +99,7 @@ const Chatbox = () => {
                   inter.className
                 )}
               >
-                Brave
+                Thrive
               </span>
               .AI Now!
             </p>

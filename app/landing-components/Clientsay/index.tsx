@@ -8,7 +8,7 @@ const Clientsay = () => {
           What say clients about us.
         </h3>
         <h4 className="text-lg font-normal text-darkgray text-center mt-4">
-          Brave is a platform that helps to connect with interviewor around the
+          Thrive is a platform that helps to connect with interviewor around the
           world
         </h4>
 
@@ -31,7 +31,7 @@ const Clientsay = () => {
             />
             <div className="lg:inline-block bg-white rounded-2xl p-5 shadow-sm">
               <p className="text-base font-normal text-center text-darkgray">
-                I am very happy with the service provided by Brave.
+                I am very happy with the service provided by Thrive.
                 <br /> It is very easy to use and the support team
                 <br /> is always available to help me with any issues.
               </p>

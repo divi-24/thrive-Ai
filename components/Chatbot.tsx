@@ -58,7 +58,7 @@ const Chatbox = () => {
                   <Image
                     alt="groq"
                     className="mr-2 flex size-6 md:size-8 rounded-full sm:mr-4"
-                    src="/logo-base-32x32.png"
+                    src="/favicon-32x32.png"
                     width={30}
                     height={30}
                   />

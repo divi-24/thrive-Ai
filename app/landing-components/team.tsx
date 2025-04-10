@@ -29,138 +29,33 @@ export function Team() {
             </p>
           </div>
           <div className="bg-card hover:-translate-y-1 p-6 rounded-xl shadow-sm transition-all duration-300 hover:border-cyan-200 border hover:shadow-md">
-              <div className="flex flex-col items-center gap-4">
-                <Image
-                  alt="Divi"
-                  src={
-                    "/DIVI.png"
-                  }
-                  width={500}
-                  height={500}
-                  className="rounded-full size-56 object-cover border shadow"
-                />
-                <div className="text-center space-y-1">
-                  <h3 className="text-xl font-semibold">Deepak Gupta</h3>
-                  <p className="text-muted-foreground">@FullStackDeveloper</p>
-                </div>
-                <div className="flex items-center gap-6 mt-auto">
-                  <Link
-                    href="https://www.github.com/divi-24"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <GithubIcon className="w-5 h-5" />
-                  </Link>
-                  <Link
-                    href="https://www.linkedin.com/in/deepakgupta249/"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <LinkedinIcon className="w-5 h-5" />
-                  </Link>
-                </div>
+            <div className="flex flex-col items-center gap-4">
+              <Image
+                alt="Divi"
+                src="/DIVI.png"
+                width={500}
+                height={500}
+                className="rounded-full size-56 object-cover border shadow"
+              />
+              <div className="text-center space-y-1">
+                <h3 className="text-xl font-semibold">Deepak Gupta</h3>
+                <p className="text-muted-foreground">@FullStackDeveloper</p>
               </div>
-            </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12">
-            <div className="bg-card hover:-translate-y-1 p-6 rounded-xl shadow-sm transition-all duration-300 hover:border-cyan-200 border hover:shadow-md">
-              <div className="flex flex-col items-center gap-4">
-                <Image
-                  alt="Yashika"
-                  src={
-                    "/YASHI.png"
-                  }
-                  width={500}
-                  height={500}
-                  className="rounded-full size-56 object-cover border shadow"
-                />
-                <div className="text-center space-y-1">
-                  <h3 className="text-xl font-semibold">Yashika Verma</h3>
-                  <p className="text-muted-foreground">@FrontendDeveloper</p>
-                </div>
-                <div className="flex items-center gap-6 mt-auto">
-                  <Link
-                    href="https://www.github.com/yayyyyshi"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <GithubIcon className="w-5 h-5" />
-                  </Link>
-                  <Link
-                    href="https://www.linkedin.com/in/yashika-verma-83074922a/"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <LinkedinIcon className="w-5 h-5" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-card hover:-translate-y-1 p-6 rounded-xl shadow-sm transition-all duration-300 hover:border-cyan-200 border hover:shadow-md">
-              <div className="flex flex-col items-center gap-4">
-                <Image
-                  alt="Zurisha"
-                  src={
-                    "/ZURI.png"
-                  }
-                  width={500}
-                  height={500}
-                  className="rounded-full size-56 object-cover border shadow"
-                />
-                <div className="text-center space-y-1">
-                  <h3 className="text-xl font-semibold">Zurisha Hasan</h3>
-                  <p className="text-muted-foreground">@UI/UX Designer</p>
-                </div>
-                <div className="flex items-center gap-6 mt-auto">
-                  <Link
-                    href="https://www.github.com/Hydehhhssnan"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <GithubIcon className="w-5 h-5" />
-                  </Link>
-                  <Link
-                    href="https://www.linkedin.com/in/zurisha-hasan-a72073329/"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <LinkedinIcon className="w-5 h-5" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-card hover:-translate-y-1 p-6 rounded-xl shadow-sm transition-all duration-300 hover:border-cyan-200 border hover:shadow-md">
-              <div className="flex flex-col items-center gap-4">
-                <Image
-                  alt="Kritika"
-                  src={
-                    "/KRITI.png"
-                  }
-                  width={500}
-                  height={500}
-                  className="rounded-full size-56 object-cover border shadow"
-                />
-                <div className="text-center space-y-1">
-                  <h3 className="text-xl font-semibold">Kritika Dixit</h3>
-                  <p className="text-muted-foreground">@BackendDeveloper</p>
-                </div>
-                <div className="flex items-center gap-6 mt-auto">
-                  <Link
-                    href="https://github.com/kritikadixit"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <GithubIcon className="w-5 h-5" />
-                  </Link>
-                  <Link
-                    href="https://www.linkedin.com/in/kritika-dixit-302b72271/"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                    prefetch={false}
-                  >
-                    <LinkedinIcon className="w-5 h-5" />
-                  </Link>
-                </div>
+              <div className="flex items-center gap-6 mt-auto">
+                <Link
+                  href="https://www.github.com/divi-24"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                  prefetch={false}
+                >
+                  <GithubIcon className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/deepakgupta249/"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                  prefetch={false}
+                >
+                  <LinkedinIcon className="w-5 h-5" />
+                </Link>
               </div>
             </div>
           </div>

@@ -7,23 +7,25 @@ import { currentUser } from "@clerk/nextjs/server";
 import { eq } from "drizzle-orm";
 import { withDb } from "@/lib/utils/db-utils";
 
-const getFormList = withDb(async (userEmail) => {
-  if (!userEmail) {
-    return [];
-  }
-  
-  try {
-    const result = await db
-      .select()
-      .from(JsonForms)
-      .where(eq(JsonForms.createdBy, userEmail));
-      
-    return result || [];
-  } catch (error) {
-    console.error('Error fetching forms:', error);
-    return [];
-  }
-});
+const getFormList = async (userEmail) => {
+  return withDb(async () => {
+    if (!userEmail) {
+      return [];
+    }
+    
+    try {
+      const result = await db
+        .select()
+        .from(JsonForms)
+        .where(eq(JsonForms.createdBy, userEmail));
+        
+      return result || [];
+    } catch (error) {
+      console.error('Error fetching forms:', error);
+      return [];
+    }
+  });
+};
 
 export default async function Responses() {
   try {
